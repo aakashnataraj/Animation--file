@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+}
+
+.Square-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid blue;
+    border-top: 3px solid red;
+    animation: ani 3s linear infinite;
+}
+
+.Square-2{
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    border: 3px solid orangered;
+    border-top: 3px solid violet;
+    animation: ani 2s linear infinite;
+
+}
+
+
+ @keyframes ani{
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+}
+ 
